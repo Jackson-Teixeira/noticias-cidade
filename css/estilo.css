@@ -73,3 +73,36 @@ body.fotos #navegacao a#fotos
     background: #de003e;
     cursor: text;
 }
+
+/* configuração layout três colunas */
+
+#conteudo {
+    background: #f5f5f5;
+    margin-top:60px;
+}
+
+#principal {
+    width: 270px;
+    background: blue;
+    float: left;
+}
+
+#secundario {
+    width: 270px;
+    background: green;
+    float: left;
+}
+
+#lateral {
+    width: 180px;
+    background: yellow;
+    float: left;
+}
+
+/* Layout roda pe */
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+    
+}
