@@ -84,8 +84,6 @@ body.fotos #navegacao a#fotos
         width: 180px;
         float: left;
         margin: 0 0 20px -750px;
-        background: yellow;
-    
 }
 
 #tres-colunas #primario {
@@ -95,11 +93,20 @@ body.fotos #navegacao a#fotos
     background: blue;
 }
 
-#duas-colunas #primario {
-    width: 270px;
+#primario {
+    width: 555px;
     float: left;
     margin: 0 0 20px 195px;
     background: blue;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-colunas #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
 }
 
 #secundario {
@@ -108,14 +115,6 @@ body.fotos #navegacao a#fotos
     margin: 0 0 20px 15px ;
     background: green;
 }
-
-#lateral {
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
-    background: yellow;
-}
-
 /* Layout roda pe */
 
 #container-rodape {
@@ -124,6 +123,40 @@ body.fotos #navegacao a#fotos
 
 }
 
+/* caixa */
+.caixa {
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png)  ;
+}
+
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* formatação do menu lateral */
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+
+/* roda pe */
 #rodape {
     width: 750px;
     margin: 0 auto;
