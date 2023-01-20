@@ -21,12 +21,16 @@ body {
     padding: 25px;
 }
 
+
+
 .logo {
     width: 152px;
-    height: 66px;
+    height: 85px;
     background: url(../imagens/logo.png) no-repeat left top;
     text-indent: -3000px;
 }
+
+
 
 ul {
     margin: 0;
@@ -86,26 +90,24 @@ body.fotos #navegacao a#fotos
         margin: 0 0 20px -750px;
 }
 
-#tres-colunas #primario {
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 195px;
-    background: blue;
-}
-
 #primario {
     width: 555px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #duas-colunas #primario {
     width: 555px;
 }
 
+#tres-colunas #primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
 #uma-colunas #primario {
-    width: 750px;
+    width: 180px;
     margin: 0 0 20px 0;
 }
 
@@ -113,15 +115,8 @@ body.fotos #navegacao a#fotos
     width: 270px;
     float: left;
     margin: 0 0 20px 15px ;
-    background: green;
 }
 /* Layout roda pe */
-
-#container-rodape {
-    background: #294c71;
-    padding: 20px;
-
-}
 
 /* caixa */
 .caixa {
@@ -131,7 +126,7 @@ body.fotos #navegacao a#fotos
 }
 
 h2 {
-    font-size: 1.1em;
+    font-size: 1em;
     background: #294c71;
     color: #fff;
     padding: 5px;
@@ -155,8 +150,91 @@ h2 {
     border-bottom: 1px solid #f3f3f3;
 }
 
+#lateral ul a:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+input {
+    padding: 10px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: white;
+}
+
+input.submit {
+    width: 95px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+   
+}
+
+img{
+    border: 2px solid #dfdfdf;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #b10333;
+}
+
+/* formatando lista de entrevistas */
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 63px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a  {
+    text-decoration: none;
+}
+   
+#lista-noticias li a h3{
+   font-size: 0.8em;
+   padding: 0;
+   color: blue;
+}
+
+#lista-noticias li a p {
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticias li:hover {
+    background-color: lightgray;
+}
+
 
 /* roda pe */
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
 #rodape {
     width: 750px;
     margin: 0 auto;
